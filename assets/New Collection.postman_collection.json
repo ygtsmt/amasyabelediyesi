@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "c24881ab-00d9-4936-8ce1-c2ffda2d7c0b",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6764084"
+	},
+	"item": [
+		{
+			"name": "Haberler",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://amasya.bel.tr/api/haberler",
+					"protocol": "https",
+					"host": [
+						"amasya",
+						"bel",
+						"tr"
+					],
+					"path": [
+						"api",
+						"haberler"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Duyurular",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://amasya.bel.tr/api/duyurular",
+					"protocol": "https",
+					"host": [
+						"amasya",
+						"bel",
+						"tr"
+					],
+					"path": [
+						"api",
+						"duyurular"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Yarismalar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://amasya.bel.tr/api/yarismalar",
+					"protocol": "https",
+					"host": [
+						"amasya",
+						"bel",
+						"tr"
+					],
+					"path": [
+						"api",
+						"yarismalar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Su Analiz Raporları",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://amasya.bel.tr/api/su-analiz-raporlari",
+					"protocol": "https",
+					"host": [
+						"amasya",
+						"bel",
+						"tr"
+					],
+					"path": [
+						"api",
+						"su-analiz-raporlari"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hal Fiyatları",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://amasya.bel.tr/api/hal-fiyarlari",
+					"protocol": "https",
+					"host": [
+						"amasya",
+						"bel",
+						"tr"
+					],
+					"path": [
+						"api",
+						"hal-fiyarlari"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hizmetler(Sayfadaki hizmet slug gönderirsen istediğin hizmet bilgieri döner)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
