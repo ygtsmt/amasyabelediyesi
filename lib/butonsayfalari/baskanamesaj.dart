@@ -66,7 +66,7 @@ class _BaskanaMesajState extends State<BaskanaMesaj> {
           Sabitler.baskanamesajtextfieldkoy(adSoyad, TextInputAction.next,
               TextInputType.text, "Adınız Soyadınız", 1),
           Sabitler.baskanamesajtextfieldkoy(epostaAdresi, TextInputAction.next,
-              TextInputType.emailAddress, "E-posta Adresiniz", 1),
+              TextInputType.emailAddress, "E-postaS Adresiniz", 1),
           Sabitler.baskanamesajtextfieldkoy(
               telefonNumararasi,
               TextInputAction.next,
