@@ -85,7 +85,7 @@ class _BaskanaMesajState extends State<BaskanaMesaj> {
                 builder: (context) {
                   return AlertDialog(
                     content: Text(
-                        "Adınız Soyadınız:${adSoyad.text}\nEposta Adresiniz:${epostaAdresi.text}\nTelefon Numaranız :${telefonNumararasi.text}\nKonu:${konu.text}\nMesajınız:${mesajiniz.text}"),
+                        "Adınız Soyadınız:${adSoyad.text}\nEpdosta Adresiniz:${epostaAdresi.text}\nTelefon Numaranız :${telefonNumararasi.text}\nKonu:${konu.text}\nMesajınız:${mesajiniz.text}"),
                   );
                 },
               );
