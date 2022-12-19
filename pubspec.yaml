@@ -55,6 +55,9 @@ dependencies:
   community_material_icon: ^5.9.55
   syncfusion_flutter_xlsio: ^20.2.39-beta
   flutter_email_sender: ^5.1.0
+  firebase_core: ^2.4.0
+  provider: ^6.0.5
+  firebase_auth: ^4.2.1
 dev_dependencies:
   flutter_test:
     sdk: flutter

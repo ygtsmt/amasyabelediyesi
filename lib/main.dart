@@ -1,11 +1,18 @@
+import 'package:amasyabelediyesi/firebase_auth/view/home_page.dart';
 import 'package:amasyabelediyesi/yenianasayfa.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
 
+import 'firebase_auth/firebase_options.dart';
+
 Future<void> main() async {
   runApp(MyApp());
-  WidgetsFlutterBinding.ensureInitialized();
-await FlutterDownloader.initialize();
+ WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
 }
 
 class MyApp extends StatelessWidget {
@@ -19,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.blue.shade900,
       ),
-      home: const YeniAnaSayfa(),
+      home:  HomePageFirebase(),
     );
   }
 }

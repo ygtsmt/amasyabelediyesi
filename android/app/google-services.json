@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "745652158314",
+    "project_id": "amasya-belediyesi",
+    "storage_bucket": "amasya-belediyesi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745652158314:android:5ba66de6ade4b7d7506f13",
+        "android_client_info": {
+          "package_name": "com.example.amasyabelediyesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745652158314-r7s1dil081q5rdhpao9ese5g9j8c31np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsBjT2wWIkVnFyUqIkg7HBvDwZvQsIgFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745652158314-r7s1dil081q5rdhpao9ese5g9j8c31np.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "745652158314-560vgqdi78jq24bfgd52pjovfnh1ss8a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.amasyabelediyesi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
